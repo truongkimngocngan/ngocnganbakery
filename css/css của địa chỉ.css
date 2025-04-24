@@ -1,0 +1,127 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	font-family: arial;font-size: 16px; color: #666666; margin: 0
+}
+header{
+	width: 100%;height: 80px;background-color:#FFEBEB; border-bottom: 1px solid darkred
+}
+.menu ul{
+	margin: 0;padding: 0; list-style: none; display: flex
+}
+.menu{
+	padding-top: 30px
+}
+.menu ul li a{
+	padding: 20px 20px; text-decoration: none; text-transform:capitalize; font-size: 17px;font-weight: 500; color: #3E3E3E; border-radius: 20px
+}
+.menu ul li a:hover{
+	background-color: darkred; color: white
+}
+/*phan slider*/
+#slide .owl-dots{ position:absolute; bottom: 10px; left:45%;}
+#slide .owl-dots .owl-dot span {
+      width: 12px;
+      height: 12px; 	
+}
+#slide .owl-nav { position:absolute; left:0px; top:40%; width:100%; }
+#slide .owl-nav [class*='owl-'] {
+	font-size:70px; /*background:rgba(255,255,255,.5);border:1px solid #fff; */ color: #F99092
+}
+
+#slide .owl-nav .owl-next{ position:absolute; right:5%;}
+#slide .owl-nav .owl-prev{ position:absolute; left:5%;}
+#slide .owl-nav [class*='owl-']:hover {
+      background:none;border: none;
+      color:darkred;
+      text-decoration: none; }
+.text-do{
+	color: darkred
+}
+aside ul{
+	margin: 0;padding: 0;list-style: none;display: flex; flex-direction: column
+}
+aside ul li{
+	border-bottom: 1px solid #9E9E9E
+}
+aside ul li a{
+	padding: 10px;display: block;text-decoration: none;color: #666666
+}
+aside ul li a:hover{
+	background-color:#FF003F; color: white
+}
+footer a{
+	text-decoration: none;color: #666666
+}
+footer a:hover{
+	color: darkred
+}
+.bg-hong{
+	background-color:#FFD7F6
+}
+footer ul{
+	margin: 0;padding: 0;list-style: none; display: flex; flex-direction: column
+}
+footer ul li a{
+	display: block;padding: 10px
+}
+footer ul li a:hover{
+	color: white; font-weight: 600
+}
+
+/*phan drop-down menu*/
+.menu ul li{
+	position: relative
+}
+.menu ul li .drop-down{
+	position: absolute; left: 0; top: 100%; flex-direction: column; width: 220px; background-color: rgba(0,0,0,0.3); display: none
+}
+.menu .drop-down li{
+	border-bottom: 1px solid #D7D7D7
+}
+.menu ul li:hover .drop-down{
+	display: block
+}
+.form-control{
+	padding: 8px;width: 100%;margin-bottom: 10px
+}
+.vien{
+	border: 3px solid #E6E6E6;padding: 10px;position: relative;overflow:hidden
+}
+.gach-chan{
+	border-bottom: 2px solid #FF4D71
+}
+.vien-bo{
+	min-height: 200px; border: 2px solid #E6E6E6; border-radius: 10px; text-align: center; padding: 10px; margin-top: 0px;
+}
+main{
+	width: 100%;min-height: 500px; clear: both
+}
+.w-25{
+	width: 25%; padding: 15px;float: left
+}
+.w-40{
+	width: 40%;padding: 15px; float: left
+}
+.w-60{
+	width: 60%;padding: 15px; float: left
+}
+.vien{
+	width: 100%; min-height: 200px; border: 1px solid blue; border-radius: 10px; text-align: center; padding: 10px; margin-top: 40px;
+}
+.bo-goc{
+	border-radius: 10px
+}
+.tour{
+	font-size: 20px;font-weight: bold; color: #4649F5
+}
+.gia{
+	color: red;font-weight: 700
+}
+footer{
+	width: 100%; height: 50px; background-color:#FFEBEB ; clear: both; text-align: center; color: darkred; font-size: 18px; line-height: 50px
+}
+.vien-xam{
+	width: 100%;min-height: 300px; border: 1px solid #C4C4C4; border-radius: 5px;padding: 15px;margin-bottom: 20px
+}
